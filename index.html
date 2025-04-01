@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Chevette is cool!</title>
+        <style>
+            #cabecalho {
+                color: azure;
+                font-size: 32px;
+                width: 230px;
+                height: 40px;
+                background-color: silver;
+                border: 1px solid white;
+                margin: auto;
+            }
+            div p,li{
+            color: azure;
+            width: 500px;
+        }
+        body{
+            background-color: lightblue;
+        }
+        div.texto{
+            margin: 20px auto;
+            width: 500px;
+            background-color: silver;
+            border: 1px solid white;
+            padding: 10px;
+        }
+        .imagens{
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            margin-top: 20px;
+            margin-bottom: 20px;
+        }
+        #img{
+            height: 180px;
+            width: 280px;
+        }
+        </style>
+    </head>
+    <body>
+        <h1 id="cabecalho">Chevette is cool!</h1>
+        <div class="imagens">
+            <img id="img" src="chevette.jpg" alt="Chevette">
+            <img id="img" src="chevette2.jpg" alt = "chevette2">
+            <img id="img" src="chevette3.jpg" alt="chevette3">
+        </div>
+        
+        <div class="texto">
+        <p>Chevette is cool pois:</p> 
+        <ul>
+            <li>Legal</li>
+            <li>Divertido</li>
+            <li>Bacana</li>
+        </ul>
+        <p>O Chevette foi um automóvel lançado pela General Motors no ano de 1973, 
+            sendo fabricado pela montadora Chevrolet no Brasil. 
+            É a 3 geração do Opel Kadett lançado na Europa em 1973.</p>
+        
+        <p>Leia mais sobre chevette: <a href="https://pt.wikipedia.org/wiki/Chevrolet_Chevette">Chevette</a></p>
+    </div>
+        <script src="java.js" defer> </script>
+        <button id="butao">Clique para comprar chevettes</button>
+        <button id="vender">Clique para vender chevette!</button>
+        <p>Valor atual de chevette: <span id="valortela">0</span></p>
+        
+    </body>
+</html>
